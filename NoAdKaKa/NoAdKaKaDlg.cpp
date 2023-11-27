@@ -199,4 +199,6 @@ void CNoAdKaKaDlg::DoProcess(void)
 
 	/// 3차 테스트  // 최초 1차 소스에 Process Branch 진행 시켜
 	int b = 88;
+
+	int c = 100;
 }
