@@ -156,7 +156,8 @@ HWND CNoAdKaKaDlg::FindAdWindow(HWND KakaoMain)
 
 void CNoAdKaKaDlg::OnBnClickedButton1()
 {
-	
+	/// 1차 테스트 : "커밋" ///
+	int a = 99;
 }
 
 void CNoAdKaKaDlg::OnBnClickedOk()
