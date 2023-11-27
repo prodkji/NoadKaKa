@@ -109,6 +109,10 @@ BOOL CNoAdKaKaDlg::OnInitDialog()
 	m_evtThreadDone.ResetEvent();
 	pCheckWinThread = ::AfxBeginThread(EventProcess, this, THREAD_PRIORITY_NORMAL, 0, 0, NULL);
 
+
+	/// 1차 커밋후 //2차는 분기 테스트 //
+	AfxMessageBox("Do Branch Process");
+
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
 
