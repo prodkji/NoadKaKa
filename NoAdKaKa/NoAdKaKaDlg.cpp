@@ -191,4 +191,8 @@ void CNoAdKaKaDlg::DoProcess(void)
 		::GetWindowRect(KakaoMain, &Rect);
 		::SetWindowPos(KakaoWnd, HWND_BOTTOM, 0, 0, (Rect.right - Rect.left), (Rect.bottom - Rect.top - 32), SWP_NOMOVE);
 	}
+
+
+	/// 3차 테스트  // 최초 1차 소스에 Process Branch 진행 시켜
+	int b = 88;
 }
