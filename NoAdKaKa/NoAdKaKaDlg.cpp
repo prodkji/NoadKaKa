@@ -195,4 +195,8 @@ void CNoAdKaKaDlg::DoProcess(void)
 		::GetWindowRect(KakaoMain, &Rect);
 		::SetWindowPos(KakaoWnd, HWND_BOTTOM, 0, 0, (Rect.right - Rect.left), (Rect.bottom - Rect.top - 32), SWP_NOMOVE);
 	}
+
+
+	/// 과거 분기에서 부터 완전히 다른 코드로 작성 ///
+	Sleep(10);
 }
